@@ -1,17 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
-import { 
-  BookOpen, 
-  Users, 
-  Calendar, 
-  Settings, 
-  ExternalLink,
-  CheckCircle,
-  AlertCircle,
-  Sync,
-  Plus,
-  Eye
-} from 'lucide-react'
+import { BookOpen, Users, Calendar, Settings, ExternalLink, CheckCircle, AlertCircle, FolderSync as Sync, Plus, Eye } from 'lucide-react'
 import toast from 'react-hot-toast'
 
 const ClassroomIntegration = () => {
